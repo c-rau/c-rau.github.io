@@ -1,34 +1,189 @@
-<!doctype html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Ideal Image Slider Example</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="../ideal-image-slider.css">
-    <link rel="stylesheet" href="../themes/default/default.css">
-    <style media="screen">
-    #slider {
-        max-width: 900px;
-        margin: 50px auto;
-    }
-    </style>
-</head>
-<body>
-<a href="temp/index.html">temp</a>
-	<div id="slider">
-		<img src="img/1.jpg" />
-		<img data-src="img/2.jpg" />
-		<img data-src="img/3.jpg" />
-		<img data-src="img/4.jpg" />
-		<img data-src="img/5.jpg" />
-	</div>
-
-    <script src="../ideal-image-slider.js"></script>
-	<script>
-	var slider = new IdealImageSlider.Slider('#slider');
-    slider.start();
-	</script>
-</body>
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Blueprint: Google Grid Gallery</title>
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<header class="clearfix">
+				<h1>Sydney</h1>
+			</header>
+			<div id="grid-gallery" class="grid-gallery">
+				<section class="grid-wrap">
+					<ul class="grid">
+						<li class="grid-sizer"></li><!-- for Masonry column width -->
+						   <li>
+							 <figure>
+								 <img src="img/1.jpg"/>
+							   </figure>
+							</li>
+						   <li>
+							 <figure>
+								 <img src="img/2.jpg"/>
+							   </figure>
+							</li>
+						   <li>
+							 <figure>
+								 <img src="img/3.jpg"/>
+							   </figure>
+							</li>
+						   <li>
+							 <figure>
+								 <img src="img/4.jpg"/>
+							   </figure>
+							</li>
+						   <li>
+							 <figure>
+								 <img src="img/5.jpg"/>
+							   </figure>
+							</li>
+						   <li>
+							 <figure>
+								 <img src="img/6.jpg"/>
+							   </figure>
+							</li>
+						   <li>
+							 <figure>
+								 <img src="img/IMG_20150131_105046.jpg"/>
+							   </figure>
+							</li>
+						   <li>
+							 <figure>
+								 <img src="img/IMG_20150131_130612.jpg"/>
+							   </figure>
+							</li>
+						   <li>
+							 <figure>
+								 <img src="img/IMG_20150201_174046.jpg"/>
+							   </figure>
+							</li>
+						   <li>
+							 <figure>
+								 <img src="img/IMG_20150205_195811.jpg"/>
+							   </figure>
+							</li>
+						   <li>
+							 <figure>
+								 <img src="img/IMG_20150206_105803.jpg"/>
+							   </figure>
+							</li>
+						   <li>
+							 <figure>
+								 <img src="img/IMG_20150207_190621.jpg"/>
+							   </figure>
+							</li>
+						   <li>
+							 <figure>
+								 <img src="img/IMG_20150207_190630.jpg"/>
+							   </figure>
+							</li>
+						   <li>
+							 <figure>
+								 <img src="img/IMG_20150208_164326.jpg"/>
+							   </figure>
+							</li>
+						   <li>
+							 <figure>
+								 <img src="img/IMG_20150209_211028.jpg"/>
+							   </figure>
+							</li>
+						   <li>
+							 <figure>
+								 <img src="img/IMG_20150209_211118.jpg"/>
+							   </figure>
+							</li>
+						   <li>
+							 <figure>
+								 <img src="img/IMG_20150209_211300.jpg"/>
+							   </figure>
+							</li>
+						   <li>
+							 <figure>
+								 <img src="img/IMG_20150209_212223.jpg"/>
+							   </figure>
+							</li>
+						   <li>
+							 <figure>
+								 <img src="img/IMG_20150210_125832.jpg"/>
+							   </figure>
+							</li>
+						   <li>
+							 <figure>
+								 <img src="img/IMG_20150211_091420.jpg"/>
+							   </figure>
+							</li>
+						   <li>
+							 <figure>
+								 <img src="img/IMG_20150211_110309.jpg"/>
+							   </figure>
+							</li>
+						   <li>
+							 <figure>
+								 <img src="img/IMG_20150211_113207.jpg"/>
+							   </figure>
+							</li>
+						   <li>
+							 <figure>
+								 <img src="img/IMG_20150211_113209.jpg"/>
+							   </figure>
+							</li>
+					</ul>
+				</section><!-- // grid-wrap -->
+				<section class="slideshow">
+					<ul>
+						<li>
+							<figure>
+								<img src="img/large/1.jpg" alt="img01"/>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<img src="img/large/2.jpg" alt="img02"/>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<img src="img/large/3.jpg" alt="img03"/>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<img src="img/large/4.jpg" alt="img04"/>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<img src="img/large/5.jpg" alt="img05"/>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<img src="img/large/6.jpg" alt="img06"/>
+							</figure>
+						</li>
+					</ul>
+					<nav>
+						<span class="icon nav-prev"></span>
+						<span class="icon nav-next"></span>
+						<span class="icon nav-close"></span>
+					</nav>
+					<div class="info-keys icon">Navigate with arrow keys</div>
+				</section><!-- // slideshow -->
+			</div><!-- // grid-gallery -->
+		</div>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/masonry.pkgd.min.js"></script>
+		<script src="js/classie.js"></script>
+		<script src="js/cbpGridGallery.js"></script>
+		<script>
+			new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
+		</script>
+	</body>
 </html>
